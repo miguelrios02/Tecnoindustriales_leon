@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@layer components {
+  .app-container {
+    @apply m-auto container p-4 lg:max-w-6xl;
+  }
+  .app-title-1 {
+    @apply font-black text-5xl leading-[56px] font-Roboto;
+  }
+  .app-banner {
+    @apply w-screen m-auto relative left-[calc(-50vw_+_50%)];
+  }
+  .title-1 {
+    @apply font-Roboto font-bold text-6xl leading-[56px];
+  }
+  .subtitle-1 {
+    @apply font-Roboto font-medium text-base leading-[19px];
+  }
+  .title-2 {
+    @apply font-Roboto font-medium text-2xl leading-[28px];
+  }
+  .subtitle-2 {
+    @apply font-Roboto font-normal text-base leading-[19px];
+  }
+  .title-3 {
+    @apply font-Roboto font-semibold text-[20px] leading-[23px];
+  }
+  .texto-1 {
+    @apply font-Roboto font-normal text-[15px] leading-[18px];
+  }
+  .texto-2 {
+    @apply font-Roboto font-medium text-[14px] leading-[16px];
+  }
+  .texto-3 {
+    @apply font-Roboto font-semibold text-[14px] leading-[20px];
+  }
+  .title-4 {
+    @apply font-Roboto font-semibold text-[32px] leading-[37.5px];
+  }
+  .title-5 {
+    @apply font-Roboto font-normal text-[14px] leading-[20px];
+  }
+  .subtitle-3 {
+    @apply font-Roboto font-normal text-[12px] leading-[20px];
+  }
+  .title-6 {
+    @apply font-Roboto font-black text-[48px] leading-[56.25px];
+  }
+  .title-7 {
+    @apply font-Roboto font-black text-[36px] leading-[42.19px];
+  }
+  .title-8 {
+    @apply font-Roboto font-medium text-[20px] leading-[23.44px];
+  }
+  .subtitle-4 {
+    @apply font-Roboto font-medium text-[24px] leading-[28.13px];
+  }
+  .subtitle-5 {
+    @apply font-Roboto font-medium text-[13px] leading-[15.23px];
+  }
+  .subtitle-6 {
+    @apply font-Roboto font-normal text-[14px] leading-[16.41px];
+  }
+  .subtitle-7 {
+    @apply font-Roboto font-medium text-[20px] leading-[20px];
+  }
+  .subtitle-8 {
+    @apply font-Roboto font-light text-base leading-[18.75px];
+  }
+  .subtitle-9 {
+    @apply font-Roboto font-medium text-[11px] leading-[13px];
+  }
+
+  .text-gradient {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 4%,
+      rgba(41, 181, 25, 0) 52%
+    );
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 4%,
+      rgba(41, 181, 25, 0) 52%
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 4%,
+      rgba(41, 181, 25, 0) 52%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#29b519",GradientType=1);
+  }
+}
